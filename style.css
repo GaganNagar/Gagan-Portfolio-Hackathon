@@ -75,5 +75,7 @@ body::after {
     display: flex;
     justify-content: flex-start;
 }
-/* (Your other timeline, button, etc. styles continue here...) */
-/* ... baaki ka code jo aapne diya tha ... */
+footer{
+    position: fixed;
+    
+}
