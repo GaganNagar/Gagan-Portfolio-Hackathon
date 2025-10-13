@@ -75,7 +75,3 @@ body::after {
     display: flex;
     justify-content: flex-start;
 }
-footer{
-    position: fixed;
-    
-}
