@@ -11,8 +11,8 @@ import Certifications from './components/Certifications';
 import Resume from './components/Resume'; // Imported Resume
 import Contact from './components/contact'
 import Footer from './components/Footer';
-import Experience from './components/experience';
-import About from './components/about';
+import Experience from './components/Experience';
+import About from './components/About';
 import Projects from './components/Projects';
 
 function App() {
