@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Certifications from './components/Certifications';
 import Resume from './components/Resume'; // Imported Resume
-import Contact from './components/Contact';
+import Contact from './components/contact'
 import Footer from './components/Footer';
 import Experience from './components/experience';
 import About from './components/about';
