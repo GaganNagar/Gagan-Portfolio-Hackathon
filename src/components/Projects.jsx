@@ -3,7 +3,6 @@ import { PortfolioContext } from '../context/PortfolioContext';
 
 function Projects() {
   const { projectsData } = useContext(PortfolioContext);
-   console.log(projectsData)
 
   if (!projectsData) return null;
 
