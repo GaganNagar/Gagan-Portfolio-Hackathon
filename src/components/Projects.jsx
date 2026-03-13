@@ -3,6 +3,7 @@ import { PortfolioContext } from '../context/PortfolioContext';
 
 function Projects() {
   const { projectsData } = useContext(PortfolioContext);
+   console.log(projectsData)
 
   if (!projectsData) return null;
 
@@ -15,6 +16,7 @@ function Projects() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project) => (
+           
             <div 
               key={project.id} 
               // 👇 Card ko 'flex flex-col' banaya gaya hai
