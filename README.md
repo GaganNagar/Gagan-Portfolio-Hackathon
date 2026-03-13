@@ -1,60 +1,16 @@
-# Portfolio Website
+# React + Vite
 
-This is a personal portfolio website built using HTML, CSS, and JavaScript. It highlights my projects, skills, resume, and contact details in a clean and responsive layout.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Responsive and user-friendly design
-- About section with personal and professional information
-- Projects section with live project links
-- Skills section divided into relevant categories
-- Education section
-- Project Section
-- Contact form with basic validation
-- Footer with links to social profiles
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Technologies Used
+## React Compiler
 
-- HTML5
-- CSS3
-- JavaScript
-- Git and GitHub
-- Vercel (for deployment)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Folder Structure
+## Expanding the ESLint configuration
 
-portfolio/
-├── index.html  
-├── style.css  
-├── script.js  
-├── images/  
-│   ├── Profile
-│   └── portfolio
-│   └── todo-app
-│   └── weatherApp
-
-## How to Use
-
-1. Clone the repository:
-   
-2. Open the project folder in any code editor.
-
-3. Run the site:
-- Open `index.html` in a browser directly
-- Or use a live server extension (e.g., in VS Code)
-
-4. Customize content as needed in the HTML, CSS, and JS files.
-
-## Live Demo
-
-The live version of the portfolio is available at:  
-[https://gagannagar.vercel.app](https://gagannagar.vercel.app)
-
-## Contact Information
-
-For inquiries or collaborations:
-
-- Email: gaganngr319@gmail@.com  
-- LinkedIn: [https://linkedin.com/in/gagannagar](https://linkedin.com/in/gagannagar)  
-- GitHub: [https://github.com/GaganNagar](https://github.com/GaganNagar)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
